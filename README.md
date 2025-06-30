@@ -24,6 +24,19 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+해당 레포지토리는 NestJS 학습용으로, 목적은 다음과 같다.
+1. NestJS의 철학과 구조 이해
+2. 간단한 CRUD API를 만들어보는 실습을 통해 NestJS 구조에 익숙해지고 DI와 모듈 방식 이해 : TODO API
+3. 주요 기능 확장 학습
+4. TypeORM을 이용한 DB 연동
+
+## Implementing simple CRUD APIs
+
+- `GET /todos` : 모든 할 일 리스트 조회
+- `GET /todos/:id` : 특정 할 일 상세보기
+- `POST /todos` : 새 할 일 등록
+- `PATCH /todos/:id` : 특정 할 일 내용 수정
+- `DELETE /todos/:id` : 특정 할 일 삭제
 
 ## Project setup
 
